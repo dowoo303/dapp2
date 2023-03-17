@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  height: 74px;
+  margin: auto;
+  color: black;
+  border-top: #a5a5a5;
+}
+
+.wavve {
+  width: 108px;
+  margin-top: 5px;
+}
+
+.glass {
+  width: 22px;
+  height: 22px;
+  padding-top: 65px;
+  display: block;
+}
+
+button {
+  background-color: #1b1b1b;
+  font-family: NotoSans, sans-serif;
+  border: 0;
+  color: #a5a5a5;
+  font-size: 20px;
+  font-weight: 600px;
+  margin-top: 40px;
+  line-height: 30px;
+  padding: 17px;
+}
+
+.firstBtn {
+  margin-left: 60px;
+}
+
+@media (min-width: 1240px) {
+  .glass {
+    display: inline-block;
+  }
+}
